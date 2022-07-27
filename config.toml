@@ -1,4 +1,4 @@
-baseURL = "https://zl413.user.srcf.net/"
+baseURL = "https://ziiiliu.github.io/"  #"https://zl413.user.srcf.net/"
 # [en, zh-cn, fr, ...] determines default content language
 defaultContentLanguage = "en"
 # language code
@@ -6,32 +6,43 @@ languageCode = "en"
 title = "Ziyi Liu"
 
 # Change the default theme to be use when building the site with Hugo
-theme = "LoveIt"
+theme = "Feelit"
+themesDir = './themes'
+enableRobotsTXT = true
+enableGitInfo = true
+enableEmoji = true
 
 [params]
-  # LoveIt theme version
-  version = "0.2.X"
+  version = "1.0.X"
   description = "Ziii's Page"
   defaultTheme = "auto"
-  
+  gitRepo = "https://github.com/ziiiliu/ziiiliu.github.io"
   [params.home]
     [params.home.profile]
       enable = true
-      title = "<h1>My profile</h1>"
-      subtitle = "Welcome to my personal page!"
+      title = "<h1>Ziyi Liu</h1>"
+      subtitle = "Ziiiiiiiiiiiiiiiiiiiiiiii"
       avatarURL = "/images/avatar.png"
+      typeit = true
       social = true
-    
+      
     [params.home.posts]
       enable = true
       # special amount of posts in each home posts page
       paginate = 6
   [params.social]
-    github = "github.com"
-    LinkedIn = "linkedin.com"
-    facebook = "ziyi"
-    Email = "xxxx@xxxx.com"
-
+    github = "ziiiliu"
+    LinkedIn = "zi-liu"
+    Email = "zliu0629@gmail.com"
+  [params.typeit]
+    speed = 100
+    cursorSpeed = 1000
+    cursorChar = "|"
+    duration = -1
+  [params.page]
+    fontawesome = true
+    cdnfontawesome = true
+    twemoji = true
 [menu]
   [[menu.main]]
     identifier = "posts"
@@ -65,7 +76,16 @@ theme = "LoveIt"
     pre = ""
     post = ""
     name = "About Me"
-    url = "/aboutme/"
+    url = "/about/"
+    title = ""
+    weight = 4 
+  
+  [[menu.main]]
+    identifier = "projects"
+    pre = ""
+    post = ""
+    name = "Projects"
+    url = "/projects/"
     title = ""
     weight = 4 
 
