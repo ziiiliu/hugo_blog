@@ -1,5 +1,5 @@
 ---
-title: "Intro to Flask (1)"
+title: "Intro to Flask (2)"
 date: 2020-11-05T20:46:05Z
 draft: false
 tags: [web, flask, html]

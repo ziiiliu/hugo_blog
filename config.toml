@@ -12,6 +12,9 @@ enableRobotsTXT = true
 enableGitInfo = true
 enableEmoji = true
 
+[author]
+  name = "Ziyi"
+
 [params]
   version = "1.0.X"
   description = "Ziii's Page"
@@ -21,8 +24,8 @@ enableEmoji = true
     [params.home.profile]
       enable = true
       title = "<h1>Ziyi Liu</h1>"
-      subtitle = "Ziiiiiiiiiiiiiiiiiiiiiiii"
-      avatarURL = "/images/avatar.png"
+      subtitle = "Ziiiiiiiiiiiiiiiiiiiiii"
+      avatarURL = "/images/profile.jpg"
       typeit = true
       social = true
       
@@ -43,6 +46,21 @@ enableEmoji = true
     fontawesome = true
     cdnfontawesome = true
     twemoji = true
+  [params.footer]
+    enable = true
+    custom = ""
+    hugo = false
+    copyright = true
+    author = true
+    since = 2019
+  [params.page.toc]
+    enable=true
+    auto=false
+  [params.page.comment]
+    enable=true  
+
+
+
 [menu]
   [[menu.main]]
     identifier = "posts"
@@ -72,15 +90,6 @@ enableEmoji = true
     title = ""
     weight = 3
   [[menu.main]]
-    identifier = "about"
-    pre = ""
-    post = ""
-    name = "About Me"
-    url = "/about/"
-    title = ""
-    weight = 4 
-  
-  [[menu.main]]
     identifier = "projects"
     pre = ""
     post = ""
@@ -88,6 +97,23 @@ enableEmoji = true
     url = "/projects/"
     title = ""
     weight = 4 
+    [[menu.main]]
+    identifier = "newsletter"
+    pre = ""
+    post = ""
+    name = "Newsletter"
+    url = "/newsletter/"
+    title = ""
+    weight = 5  
+    [[menu.main]]
+    identifier = "about"
+    pre = ""
+    post = ""
+    name = "About Me"
+    url = "/about/"
+    title = ""
+    weight = 6
+
 
 # Markup related configuration in Hugo
 [markup]

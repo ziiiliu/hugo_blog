@@ -1,8 +1,9 @@
 ---
-title: "Intro to Flask (2)"
+title: "Intro to Flask (1)"
 date: 2020-10-29T20:30:20Z
 draft: false
 author: Ziyi
+show: true
 ---
 So after delaying this website project for almost a year, I'm back online and will be producing weekly microblogs(stressful terms, sorry) on CS-related contents, as well as other random blogs about life. In the meantime I am still familiarising myself with Hugo, so don't be surprised if the structuring and themes get a bit whimsical - or actually I might just do it for fun :)))
 
